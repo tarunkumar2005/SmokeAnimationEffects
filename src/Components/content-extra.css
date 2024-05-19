@@ -1,0 +1,134 @@
+/* Hide the scrollbar */
+.content::-webkit-scrollbar {
+  display: none !important;
+}
+
+.content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.purchasebutton {
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.section1 .text1 span {
+  background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.section1 .text2 span {
+  font-weight: 500;
+}
+
+.section2 .text1 h1 {
+  font-weight: 500;
+}
+
+.section2 .text1 span {
+  background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.qouteline .inside p {
+  font-weight: 300;
+}
+
+.trustedSection1 .text1 h1 {
+  font-weight: 400;
+}
+
+.bodyelement::-webkit-scrollbar {
+  display: none;
+}
+
+.turnyourcursor .leftSection h1 {
+  font-weight: 500;
+}
+
+.turnyourcursor .leftSection p {
+  font-weight: 300;
+}
+
+.cursorbutton a {
+  background-image: linear-gradient(90deg, #5E11FF 0%, #F87516 100%);
+}
+
+.cursorbutton .textbutton span {
+  font-weight: 300;
+}
+
+.arrow-cursor-button-part {
+  font-size: 30px;
+}
+
+.applysectiontext .applysectiontext1 h1 {
+  font-weight: 500;
+}
+
+.applycont {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+}
+
+.applysectionpart2 .applycont {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.applysectionpart2 .applycont h1 {
+  font-weight: 500;
+}
+
+.applysectionpart2 .applycont p {
+  font-weight: 300;
+}
+
+.browserSupport .browserinner h1 {
+  font-weight: 500;
+}
+
+.browserSupport .browserinner p {
+  font-weight: 300;
+}
+
+.browserSupport .browserinner {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.allrounder .allinner .metadata h1 {
+  font-weight: 500;
+}
+.allrounder .allinner .metadata p {
+  font-weight: 300;
+}
+
+.iconcont h1 {
+  font-weight: 500;
+}
+
+.iconcont p {
+  font-weight: 300;
+}
+
+.icons .iconcont {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+footer {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
